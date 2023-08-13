@@ -1,0 +1,25 @@
+.model /home/sven/Documents/ucf/phd/robdd-to-crossbar-copy/robdd-to-crossbar/experiments/2023-ICCAD/xunsat/xbars/incorrect/suraj/parity.xbar
+.inputs x0 x7 x9 x2 x12 x14 x6 x10 x5 x13 x4 x1 x11 x15 x3 x8
+.outputs f0
+.rows 16
+.columns 16
+.i 1 15
+.o f0 0
+.xbar
+x14	~x14	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	~x3	x3	~x0	x0
+0	0	0	0	0	0	0	0	0	0	x5	~x5	x2	~x2	0	0
+0	0	0	0	0	0	0	0	0	0	~x5	x5	~x2	x2	0	0
+0	0	0	0	0	0	0	0	1	~x7	x4	~x4	0	0	0	0
+0	0	0	0	0	0	0	0	~x7	x7	~x4	x4	0	0	0	0
+0	0	0	0	0	0	x9	~x9	x6	~x6	0	0	0	0	0	0
+0	0	0	0	0	0	~x9	x9	~x6	x6	0	0	0	0	0	0
+0	0	0	0	x11	~x11	x8	~x8	0	0	0	0	0	0	0	0
+0	0	0	0	~x11	x11	~x8	x8	0	0	0	0	0	0	0	0
+0	0	x13	~x13	x10	~x10	0	0	0	0	0	0	0	0	0	0
+0	0	~x13	x13	~x10	x10	0	0	0	0	0	0	0	0	0	0
+x15	~x15	x12	~x12	0	0	0	0	0	0	0	0	0	0	0	0
+~x15	x15	~x12	x12	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	x3	~x3	x0	~x0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	~x1	x1
+.end

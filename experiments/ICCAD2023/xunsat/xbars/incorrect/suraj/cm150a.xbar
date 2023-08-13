@@ -1,0 +1,21 @@
+.model /home/sven/Documents/ucf/phd/robdd-to-crossbar-copy/robdd-to-crossbar/experiments/2023-ICCAD/xunsat/xbars/incorrect/suraj/cm150a.xbar
+.inputs x14 x6 x13 x4 x3 x16 x17 x19 x20 x10 x9 x7 x2 x15 x0 x12 x5 x1 x18 x11 x8
+.outputs f0
+.rows 12
+.columns 22
+.i 1 11
+.o f0 0
+.xbar
+1	~x20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	x18	x19	~x19	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	~x18	0	0	x19	~x19	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	x18	x19	~x19	0	0	0	0	0	0	0
+0	~x17	0	0	0	0	0	0	0	0	0	0	x16	0	0	0	0	~x16	0	0	0	0
+0	0	0	0	0	0	0	~x18	0	0	1	~x19	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	x18	x19	~x19	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	~x18	0	0	x19	~x19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	x18	x19	~x19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	x17	x16	0	0	0	0	~x16	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	~x18	0	0	x19	~x19
+x20	0	0	~x15	~x7	~x11	~x3	0	~x14	~x6	~x10	~x2	0	~x13	~x5	~x9	~x1	0	~x12	~x4	~x8	~x0
+.end

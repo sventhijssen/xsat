@@ -1,0 +1,52 @@
+# Default ignored files
+/workspace.xml
+
+.idea/
+
+__pycache__/
+
+# Virtual environment
+venv/
+
+*.aux
+*.log
+*.pdf
+*.tex
+
+*.json
+
+*.csv
+
+*.topo
+
+# Image files
+*.dot
+*.ps
+*.svg
+*.txt
+
+# ILP files
+*.mps
+
+# Visual Studio Code
+*.vscode
+
+# benchmarks directory
+*_out.v
+*.lp
+
+# Locked files
+.~lock.*
+
+# Temporary files in ABC directory
+/abc/*.pla
+/abc/*.v
+/abc/*.blif
+
+# MacOS
+.DS_Store
+
+# Requirements
+!requirements.txt
+
+docs/_build/

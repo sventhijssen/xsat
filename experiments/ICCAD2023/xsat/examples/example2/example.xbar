@@ -1,0 +1,11 @@
+.model /home/sven/Documents/ucf/phd/robdd-to-crossbar/robdd-to-crossbar/experiments/2023-ICCAD/xsat/examples/example.xbar
+.inputs a b c
+.outputs f
+.rows 2
+.columns 2
+.i 1 0
+.o f 1
+.xbar
+a	c
+b	d
+.end
